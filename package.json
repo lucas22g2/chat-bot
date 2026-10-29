@@ -1,0 +1,19 @@
+{
+  "name": "cidadeia-whatsapp",
+  "version": "1.0.0",
+  "description": "Chatbot de atendimento urbano por WhatsApp com IA e registro de ocorrências",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^5.12.2",
+    "better-sqlite3": "^11.10.0",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}
